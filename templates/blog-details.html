@@ -1,7 +1,11 @@
 {% extends 'base.html' %}
 {% load static %}
 
-<!--================Header Menu Area    Remake Barber - Blog Details=================-->
+{% block title %}
+  {{ post.title }} - Blog Details
+{% endblock %}
+
+<!--================Header Menu Area=================-->
 {% block content %}
   <header class="header_area">
     <div class="main_menu">
